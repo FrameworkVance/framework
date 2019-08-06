@@ -7,13 +7,15 @@ const GamePage = (props) => {
   return (
     <div className="gamePageWrapper">
       <div id="boxes">
+        <div><Link style={{ textDecoration: 'none', color: 'rgb(230,230,250)'}} to='/Login'>About</Link></div>
+        <div><Link style={{ textDecoration: 'none', color: 'rgb(230,230,250)'}} to='/Signup'>Signup</Link></div>
       </div>
       <div className="boxOne"></div>
       <div className="boxTwo" >
         <div id="fwv">Framework Ventures</div>
-        <div id="about"><Link style={{ textDecoration: 'none', color: 'purple'}} to='/high-scores'>About</Link></div>
+        <div id="about"><Link style={{ textDecoration: 'none', color: 'purple'}} to='/about'>About</Link></div>
         {/* <div id="research"><Link style={{ textDecoration: 'none', color: 'purple'}} id to='/settings'>Research</Link></div> */}
-        <div id="tweet"><a style={{ textDecoration: 'none', color: 'purple'}} href="#" class="fa fa-twitter"></a></div>
+        <div id="tweet"><a style={{ textDecoration: 'none', color: 'purple'}} href="https://twitter.com/hiFramework" class="fa fa-twitter"></a></div>
         </div>
       <div className="boxThree"></div>
     </div>

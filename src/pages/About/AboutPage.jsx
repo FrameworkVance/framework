@@ -10,23 +10,23 @@ class HighScoresPage extends Component {
       <div id="aboutWrapper">
         <div id="leftmarginSection"></div>
         <div id="titleSection">
-          <div id="aboutFW">Framework Ventures</div>
-          <div id="aboutTweet"><a style={{ textDecoration: 'none', color: 'purple'}} href="#" class="fa fa-twitter"></a></div> 
+          <div id="aboutFW"><Link to='/' style={{ textDecoration: 'none', color: 'purple'}}>Framework Ventures</Link></div>
+          <div id="aboutTweet"><a style={{ textDecoration: 'none', color: 'purple'}} href="https://twitter.com/hiFramework" class="fa fa-twitter"></a></div> 
           </div>
         <div id="aboutSection">
           <div className="title">About</div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+          <p>Framework Ventures invests in disruptive, pragmatic blockchain networks. Framework Labs builds consumer experiences </p>
           </div>        
         <div id="teamSection">
         <div className="title">Team</div>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p></div>        
+          <p>Vance Spencer and Michael Anderson founded Framework in 2017, before starting Hashletes, blockchain-based NFL digital collectibles backed by Khosla Ventures. Prior to working together in crypto, the pair worked in Product Management and Corporate Strategy at Snapchat, Netflix and Dropbox</p></div>        
         <div id="portfolioSection">
         <div className="title">Writings</div>
           <ul>
-            <li> Framework</li>
+            <li> <a href="https://medium.com/@framework_v/https-medium-com-signal-capital-our-investment-in-chainlink-15ab90ee9c02">Chainlink</a></li>
             </ul>        
             </div>
-            <div id="info">info@framework.ventures</div>
+            <div id="info"> hello: info@framework.ventures</div>
         <div id="rightmarginSection"></div>           
       </div>
     );
