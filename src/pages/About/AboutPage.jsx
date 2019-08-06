@@ -19,14 +19,16 @@ class HighScoresPage extends Component {
           </div>        
         <div id="teamSection">
         <div className="title">Team</div>
-          <p>Vance Spencer and Michael Anderson founded Framework in 2017, before starting Hashletes, blockchain-based NFL digital collectibles backed by Khosla Ventures. Prior to working together in crypto, the pair worked in Product Management and Corporate Strategy at Snapchat, Netflix and Dropbox</p></div>        
+          <p>Vance Spencer and Michael Anderson founded Framework in 2017, before starting Hashletes, a blockchain-based NFL digital collectibles platform backed by Khosla Ventures. Prior to working together in crypto, the pair worked in Product Management and Corporate Strategy at Snapchat, Netflix and Dropbox</p></div>        
         <div id="portfolioSection">
         <div className="title">Writings</div>
           <ul>
             <li> <a href="https://medium.com/@framework_v/https-medium-com-signal-capital-our-investment-in-chainlink-15ab90ee9c02">Chainlink</a></li>
             </ul>        
             </div>
-            <div id="info"> hello: info@framework.ventures</div>
+            <div id="info"> 
+            <div id="hello">hello:</div> <a id="info" href="mailto:info@framework.ventures">info@framework.ventures</a>
+            </div>
         <div id="rightmarginSection"></div>           
       </div>
     );
