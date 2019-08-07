@@ -14,14 +14,16 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "2.1.8",
     "reactstrap": "^8.0.1",
+    "serve": "^11.1.0",
     "serve-favicon": "^2.5.0"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "gcp-build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
